@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+body{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}.capital{
+    text-transform: uppercase;
+}
+.fundoRosa {
+    background-color: #C2185B;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+.fundoRosa a{
+    color: white;
+}
+/* HEADER */
+header{
+    margin: 0 0 1rem 0;
+}
+header .container, nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+}
+/* Navegacao */
+nav ul li a {
+    color: #777777;
+    font-size: 1.5rem;
+}
+
+/* BENEFICIOS */
+
+.beneficios .imagem{
+   width: 100vw;
+   height: 16.3rem;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+/* ESTILO */
+.estilo{
+    margin: 0rem 0rem 10rem 0rem;
+}
+.estilo h2{
+    font-size: 3rem;
+    text-align: center;
+}
+.estilo .imagens{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.estilo .imagens img:nth-child(1){
+    height: 30rem;
+    max-width: 100%;
+}
+.estilo .imagens img:nth-child(2){
+    max-width: 100%;
+}
+
+
+/* PROMOCAO */
+.promocao{
+    margin: 0 0 10rem 0;
+    padding: 2rem 0;
+}
+.promocao h2{
+    font-size: 3rem;
+    margin: 0 0 3rem 0;
+    text-align: center;
+}
+.promocao p{
+    font-weight: 600;
+    margin-top: 0;
+}
+.promocao .produtos .produto .texto{
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0.8rem;
+}
+.promocao .container .produto img{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+.promocao .container .produtos{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* COMPRAR */
+.comprar {
+    margin: 0 0 10rem 0;
+}
+.comprar .container .left {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    gap: 1rem;
+    max-width: 100%;
+}
+.comprar .container .left .texto{
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0 0 2rem 0;
+    width: 30rem;
+    max-width: 100%;
+}
+.comprar .container .left .texto button{
+    border: none;
+    padding: 1rem 5rem;
+    font-size: 2rem;
+}
+.comprar .container img, .left img{
+    max-width: 100%;
+}
+.comprar .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+/* FOOTER */
+footer {
+    padding: 2rem;
+}
+footer .container, footer .container .right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+footer .container .left{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 15rem;
+    max-width: 100%;
+    align-self: flex-start;
+    gap: 1rem;
+}
+footer .container .right{
+    align-items: flex-start;
+}
+footer .container .right p, footer .container .right ul, footer .container .left p{
+    margin: 0;
+    padding: 0;
+}
+footer .container .right p{
+    font-weight: 600;
+}
