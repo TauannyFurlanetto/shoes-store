@@ -252,4 +252,12 @@ input.fundoRosa {
     footer .container .right{
         justify-content: flex-start;
     }
+    .beneficios .imagem{
+        height: 18vh;
+    }
+}
+@media(max-width: 520px){
+    .beneficios .imagem{
+        height: 0vw;
+    }
 }
