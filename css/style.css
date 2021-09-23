@@ -143,6 +143,9 @@ ul, ul li{
     font-size: 2rem;
     max-width: 100vw;
 }
+.comprar .container .left p.capital{
+    margin-top: 0;;
+}
 .comprar .container img, .left img{
     max-width: 100%;
 }
@@ -194,7 +197,7 @@ footer .container .right p{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 5rem;
 }
 .trabalheConosco .container .formulario{
     color: #9B9B9B;
@@ -243,7 +246,7 @@ input.fundoRosa {
 
 /* MEDIA QUERY */
 @media (max-width: 1000px){
-    .comprar .container, header .container, header nav ul, footer .container{
+    .comprar .container, header .container, header nav ul, footer .container, .trabalheConosco .container{
         justify-content: center;
     }
     footer .container .right{
